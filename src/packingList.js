@@ -15,6 +15,7 @@ const Item = ({ item }) => {
 		<li>
 			<span style={item.packed ? { textDecoration: 'line-through' } : {}}>
 				{item.quantity}
+				&nbsp;
 				{item.description}
 			</span>
 			<button>❌</button>
